@@ -11,7 +11,6 @@ export default async function Search({ params }) {
     <>
       {/* Anime Terbaru */}
       <section>
-        <Header title="Paling Populer" />
         <AnimeListPage api={searchAnime} />
       </section>
     </>
