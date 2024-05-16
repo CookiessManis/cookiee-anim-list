@@ -10,6 +10,7 @@ export default function InputSearch() {
 
   const handleSearch = (e) => {
     e.preventDefault();
+    if (!searchRef.current.value) return;
     router.push(`/search/${searchRef.current.value}`);
     searchRef.current.value = "";
   };

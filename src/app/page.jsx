@@ -14,7 +14,7 @@ export default async function Home() {
         <Header
           title="Paling Populer"
           hrefTitle="Lihat Semua"
-          linkHref="/AnimeList"
+          linkHref="/popular"
         />
         <AnimeListPage api={anime} />
       </section>
